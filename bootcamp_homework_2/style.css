@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(211, 211, 214);
+    overflow: hidden;
+    font-family: "Roboto Condensed", sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.358);
+    width: 600px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 4, 117);
+}
+
+.form_container a {
+    text-decoration: none;
+    color: rgb(255, 4, 117);
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: rgb(255, 4, 117);
+}
+
+#checkbox {
+    width: auto;
+}
+
+button {
+    background-color: rgb(255, 4, 117);
+    color: black;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: rgb(244, 92, 161);
+    transition: 0.5s;
+}
